@@ -1,3 +1,4 @@
+import java.util.List;
 
 public class Lab {
     /**
@@ -18,6 +19,7 @@ public class Lab {
      * @return any object.
      */
     public Object instantiateANewObject(){
-        return null;
+        Object reference = new Object();
+        return reference;
     }
 }
